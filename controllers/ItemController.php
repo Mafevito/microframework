@@ -70,7 +70,7 @@ class ItemController
                 $item->save();
 
                 // Finalmente llama al método listar para que devuelva vista con listado
-                header("Location: index.php?controlador=item&accion=listar");
+                header("Location: index.php?controlador=Item&accion=listar");
             }
         }
 
@@ -109,7 +109,7 @@ class ItemController
                 $item->save();
 
                 // Reenvía a la aplicación a la lista de items
-                header("Location: index.php?controlador=item&accion=listar");
+                header("Location: index.php?controlador=Item&accion=listar");
             }
         }
 
